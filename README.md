@@ -1,3 +1,5 @@
 # PeopleHeadDetectionYolov8
-Developed a thesis researching modifications of YOLOv8 to detect vary large and very small heads of BRT passengers using Nvidia Jetson Nano, tested on the Bus Rapid Transit system of Bandung city
+This research employs a deep learning method using the YOLOv8 model to detect human heads in small buses, responding to previous findings that YOLOv8 can improve object detection performance compared to YOLOv5. Several testing scenarios were conducted using variations of the YOLOv8 model, including YOLOv8 Original, YOLOv8-p2, YOLOv8-p6, and YOLOv8-p2-p6. Among these, YOLOv8-p2-p6 was selected as the main model due to its superior detection performance. The use of four datasets SCUT-HEAD Part B, Casablanca, Hollywood-Heads, and human_head also enhanced YOLOv8-p2-p6 performance, achieving a precision of 92.8%, recall of 89.3%, mAP of 94.1%, and an f1-score of 91.04%. This system was implemented on an Nvidia Jetson Nano, which showed an accuracy of 69.23% for detecting passengers entering, with an error rate of 30.77%. Meanwhile, the accuracy for detecting passengers exiting reached 28.57%, with an error rate of 71.43%.
+
+
 ![image](https://github.com/user-attachments/assets/c8b0148e-5c3f-4e72-b196-f5912219b665)
